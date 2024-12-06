@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors()); // Enable CORS for all origins
 
 // Set up MongoDB connection
-mongoose.connect('mongodb+srv://pytripsa1:UkPEVp8DjHIlwKTj@homepageimage.asrxp.mongodb.net/?retryWrites=true&w=majority&appName=HomePageImage', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://pytripsa1:WNyN78li92Wse4SI@imageupdate.hofw5.mongodb.net/?retryWrites=true&w=majority&appName=ImageUpdate', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
